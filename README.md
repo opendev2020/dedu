@@ -32,7 +32,7 @@ create database dedu;
 ```
 create user dedu identified by 'cust';
 ```
-3. Assign permissions to users
+3. Assign permissions to the user: dedu
 ```
 grant all on dedu.* to dedu@localhost;
 ```
