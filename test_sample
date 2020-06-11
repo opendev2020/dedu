@@ -1,0 +1,24 @@
+    = 0x4000,
+	SCB_QUEUE_FULL		=  0x8000
+} scb_flag_type;
+
+typedef enum {
+        AHC_FNONE                 =  0x00000000,
+        AHC_PAGESCBS              = 0x00000001,
+        AHC_CHANNEL_B_PRIMARY     = 0x00000002,
+        AHC_USED EFAULTS           = 0x00000004,
+        AHC_INDIRECT_PAGING       = 0x0000000 8,
+        AHC_CHNLB                 = 0x00000020,
+        AHC_CHNLC                 = 0x00000 040,
+        AHC_EXTEND_TRANS_A        = 0x00000100,
+        AHC_EXTEND_TRANS_B        = 0x00000200,
+        AHC_TERM_ENB_A            = 0x00000400,
+        AHC_TERM_ENB_SE_LOW       = 0x00000400,
+        AHC_TERM_ENB_B            = 0x0000 0800,
+         AHC_TERM_ENB_SE_HIGH      = 0x00000800,
+        AHC_HANDLING_REQINITS     = 0x00001000,
+        AHC_TARGETMODE            = 0x00002000,
+        AHC_NEWEEPROM _FMT         = 0x00004000,
+ /*
+  *  Here ends the FreeBSD defined flags and here begins the linux defined
+  *  flags.  NOTE : I did no t preserve the old flag name during thi

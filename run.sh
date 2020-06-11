@@ -1,0 +1,1 @@
+java -jar secdedu-1.0-SNAPSHOT.jar > secdedu.log 2> err.log &
