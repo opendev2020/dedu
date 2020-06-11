@@ -8,21 +8,20 @@ This project is for the research of secure deduplication, providing relevant tes
 * Apache Maven 3.5+
 
 ## Directory Structure
-dedu
-    |   a.properties    // elliptic curve parameters
-    |   README.md
-    |   run.sh    // test script
-    |   secdedu-1.0-SNAPSHOT.jar    // test program
-    |   test_sample    // test sample
-    |
-    +---data
-    |       dedu.sql.zip    // test data set
-    |
-    \\---lib
-        import.sh    // third-party library import script
-        jpbc-api-2.0.0.jar    // third-party library
-        jpbc-plaf-2.0.0.jar    // third-party library
-        rabin-1.0.1.jar    // third-party library
+```
+|--dedu
+    |--a.properties              // elliptic curve parameters
+    |--run.sh                    // test script
+    |--secdedu-1.0-SNAPSHOT.jar  // test program
+    |--test_sample               // test sample
+    |--data
+        |--dedu.sql.zip          // test data set
+    |--lib
+        |--import.sh             // third-party library import script
+        |--jpbc-api-2.0.0.jar    // third-party library
+        |--jpbc-plaf-2.0.0.jar   // third-party library
+        |--rabin-1.0.1.jar       // third-party library
+```
 
 ## Import Data
 1. Create a database in MySQL: dedu
